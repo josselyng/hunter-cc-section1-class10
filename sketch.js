@@ -2,7 +2,8 @@
 let para
 let slider
 let sliderValue = 16
-
+let span
+let spanTwo
 function setup() {
   createCanvas(windowWidth, windowHeight);
   // Help blind or low-vision users understand your sketch
@@ -20,6 +21,13 @@ para.style('background-color:blue')
   slider = createSlider(12, 72, sliderValue)
   slider.position(0,40)
 slider.changed(sliderChanged)
+
+  let span = createSpan('using a span now')
+
+span.style('color', 'purple');
+  span.position(0, 80)
+  let spanTwo = createSpan('!')
+  spanTwo.position(110,80)
   
 }
 
