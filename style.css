@@ -1,0 +1,14 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  
+}
+canvas {
+  display: block;
+}
+
+/* grab all p tags */
+p {
+  background-color: red;
+  color: white;
+}
